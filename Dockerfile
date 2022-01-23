@@ -18,3 +18,4 @@ RUN sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-
     apt-get -qy install postgresql-client-13
 
 RUN apt-get autoclean
+
